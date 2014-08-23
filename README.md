@@ -6,6 +6,6 @@ hackers, internet service providers and spies (more info under http://www.NoSSL.
 It does not protect against the man-in-the-middle attack.
 
 FOR PRIVATE USE IT IS LICENSED UNDER THE GPL V3.
-FOR COMMERCIAL USE, please inquire through www.nossl.net or www.smartinmedia.com
+<br />FOR COMMERCIAL USE, please inquire through www.nossl.net or www.smartinmedia.com
 
 INSTALLATION: please go to <a href="http://www.nossl.net">www.NoSSL.net</a> and read the page "Getting started"!
