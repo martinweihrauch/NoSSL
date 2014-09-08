@@ -1,0 +1,65 @@
+<?php
+//NoSSL Private RSA Key - PROTECT THIS FILE SO THAT NO ONE ACCESSES IT FROM OUTSIDE! Do not share this file with others, else the NoSSL security is hampered!
+
+$nossl_rsa_privatekey = array('current_rsa_privatekey' => '-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEAq0ApTbWV/HbfEEckq2y1cchmlSNXpyMDAY0h+gReEPCn+ZcX
+2MtDtcDRIGoS4RIw9M8RaB4IwzrrH7J4tWaRQLj4s2YvLJ29LJ9D4LMn+BNGwcYo
+VZL7bzZYd/N7Gw6LA8rm0iPBTbO0DIpfoqsdKX5l+ACiig9nXTbQsmSUqIdnEnBn
+HTPqQIa7DcjRIgXQHuh/13fs1WiX2Eo7H+RUcnfbBhCg4YxWHto061bgPGhdiMHE
++uJksE3bOv6E0STtHjIcoIrbKrVHPQDpDk9XcgH1CRvHxUdIGPs1qaxepuadGwt4
+litfDLCElDi5iSCXmFWra49swEunpEiHECaTuQIDAQABAoIBAQCeSDlk5/dvV/eo
+tfkAsQOr3UxjgD0d8FBw+J901OCUy7qWCL8z0/wLW+JvEVvNx+CUBWfTUh9LQ4Pa
+0jybfee3aMAGIOZtWIZnXfWBFFZXBooZxCu3nJjlG9f9VoBsa661nK5ngEDErto1
+1Re75GiZ14gsB3o0HTSuhWGz4R89/BUKjy89HV/0o5MDXhTkCPvimZ8LffA/sKYt
+9UsV3Mvo1P2RjLuw0+U3RtM9mSuUzHpj9sHCNQic22oG+mBL8pm3yNvjuAhKh1mT
+JkzYx+zwGoKsGeBv8BJo4kZKs2mdm8rHFADI7nUltCA+9Phu5VQhCHF33Ew5YWuK
+cmtgBMi5AoGBANxh312R0cjTM5gVeN3uFxVf877l/5ztXW80pG0mJq/BImb9N2LP
+EDXOCDV5yXTWAXmbZrdVmFUDs4/uaJF7+dVMWO+46lZ0TG4giUbahY8uGrcI9QV+
+tXQYXYLZ/37AcmhgtXv3JLOP8CDrev7KHikd6VxoQNGLBl+WGMuW/WpbAoGBAMbt
+ggbL0Fz5gs9c0xBLt+Pix5xMDQr8jc8kVJBALycMXPUVqUlOsY3a0tluVrf2bojo
+ujIL36QiRyS4bdrlLYDftTykDuyvG69e69JAAdlFgM2sUUXFg+FNdFxlwjUSSnuh
+yV8/x0JUVbpPLps6OODHin+uU6+UdJYHr8m7Eo57AoGBALcR0oQfAt7Jm11l0N7C
+zogiCg/1bY5Fm80qNMC65X4weMyG4oCBM50OhsEtZw1YTSdg0UXQo9dTWNFioZjh
+HNt0LZkNyhSBTZBaFM837aTQDr8ngKrM5B0JtHxjbRs08JUGaRwOZH2JP1eJZcXL
+zpwnTdhGfjnTPDshK33L8r1rAoGAc/Aw/C0Ff2qcZqa/DJxUzKh7lghtAZ44OCYA
+cyI1WRjHhL/fLi6DJR4IDVlViVpDCeA5xLlO2qZvuGMVA6LWZmn7gyBK4n8cL5Wu
+85cCfNMZQsXPiE6ZklJGIyPbkHrcljmw16agR3RHkpJbo3THeZpSih/b/lUTre1E
+8tno8skCgYEAuNuIuzkCNDeUCgbgiqvLA8nWTaas6E9yLUhluhkZtpK0BQhSJWRB
+HGQN6Ewm/5bgFXnfmIdrzF5VZ3+Occ83walozlzaRcJFTOUS9PQiE0XuxswWi0jA
+c7k+aDgfEKp5qqzaVvyG8HWNQnK8QOgkW9UZm0DNlPolKb9BmKvXGJk=
+-----END RSA PRIVATE KEY-----',
+
+//The current_rsa_timestamp and the last_rsa_timestamp store the Unix-time time(), when the current/last private key was generated. This is important, when the private key is renewed every day or so. The last private key has to be stored here, so that the server still has the right key present for browsers, which dont have the changed key yet. Supports some kind of perfect forward secrecy
+'current_rsa_timestamp' => 1409819029,
+
+'last_rsa_privatekey' => '-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAnKLlF795wtXQjVOb1zSAiniCcqAX00JEfNtPPyIpB5ty9VW/
+sxe09A3tISyvmUhFa/TufBqoqJJOMdbvd74PbNJpiLFaez5JOo2eJQAcFkx54lQ/
+I/qEhUya5fL/F4PoTu3Em35+Jl5yPhhRqthphwBMtUuLD3HT/6XYKUFavS7LVZuV
+jUzFzWryT66xblYdCazKGFmu866hF+K/MxxclDFtFc80PxTigJAy6DevbPtY/Ami
+zFS9a5BVp925ZJd3lnXDVxsk6R0uOm34Y0qTTRou4OqYegVAipgNEfK3wQ6jA1f9
+Y+3y2+5cCXwC06lqYh1FRlx+VyrtpQ021ebhhQIDAQABAoIBAH0FU5+p1/DYIla7
+NjcGE9byKwR8naekS+/wSAdXJ7KHs7D4GUNEF814VB3Xgezxj1+EptltmdK6vCjx
+qj9D9yHfrBZLoLGf3Gkc4e4ccU6nCd3JaoA4E5AlvbjuRAcr5L8i7ntB8kSDu+Gu
+HXkktM3pQlCuFDdmnlR9tdPv8xHtyMhyd8DuVmwdHmlIxo0q24+p6NiJtcry38Fk
+1M6BwruApGJrQleHnbQyAAM8BTR2lajvWhIPJQQgPcbT42wjkkunu4dEe37ajORw
+o2+BdHJ8QC8yQcPgxSkwOwMFehV8F8m/eWc7oMsBjun7vy8L58f0M4rD1W2JIyQb
++T/q6UECgYEAz1mIh3mkCZ96uvCwYu77M//Gvb0xZq30Ya2wfew+aEXss+ErPnSo
+HNspRsheVj7TKVdlGwZQ/MPN2T9pj0+19z/p/txUlejYcKJKMb8QgicI4gGtPMLR
+nf9lgcXRfA3rt7lbYJmoFjmvoRef0/DQBimecQ+LGs9FXEhLqq3I7lECgYEAwWNC
+GZhmBLYNaUrxF/lIOLIX2Nl3+XnPoYsDN8LgyWnZY493CM9Qb0cdo38SQivX2H5D
+kMvHWvsyOKP55r/11XBLCyObzknefJjhi84hNyuiLwk6XkPGMfom9YUzgcHqV9px
+CPQpE0Moaz5Pk+22oprp6/1EgSC/hgMO7zn0bvUCgYAZXijX+kfZbYuEZ4IM+JP/
+LqHQAN+UYl/tu2RGY6rW8wccksXJpFgU/7MzF7yC7LjE7A5Qmhs6cXIzzBBMGkJ2
+93jXV3l5xb0FOrW9FFUet0vc6ruZHXSr0d1HXT5d4Q4fsiu9y87GuVQFb3B8a4/n
+0RuzVWV9aDJiMe4f+ZcFoQKBgQCAm8IZw4AVIf1JSM2NY/rjuYyiaf2fq6KpjAlX
+zAIx8HLiA0bmVPjpCCJt2NQLrZyeHVpRsTOjDesYP/SxwHd8unEtt0Cmr/mGYyWc
+FDmCt0Hkhf6LMgdctT+ziCH46T0vr9X8XmPyq3b12zqQ5kXPXbazentUZLL6LI6C
+CcjFAQKBgGOW/DiQgiOTuKUwatICrvd+jq2ftxOSyR8hEkPRVeheHrCfkYszWY4Z
+hcwuLneSo2pFXD5E6YbO5OIvKkk7SiyCp2JSxhF+XzQ21mv93qVBVk/YqJvK2jg/
+Y2vreBhauBLbBXI+9WFJ4v0qJG/8fn/JTKpnVPe6ih5XJgjPxYJF
+-----END RSA PRIVATE KEY-----',
+
+'last_rsa_timestamp' => 1409818050);
+
+?>
