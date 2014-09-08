@@ -1,4 +1,35 @@
 <?php
+
+/*
+########################################################################################
+
+## NoSSL V1.1 - Encryption between browser and server
+
+########################################################################################
+
+## Copyright (C) 2013 - 2014 Smart In Media GmbH & Co. KG
+
+##
+
+## http://www.nossl.net
+
+##
+
+########################################################################################
+
+
+
+THIS PROGRAM IS LICENSED FOR PRIVATE USE UNDER THE GPL LICENSE
+
+
+
+FOR COMMERCIAL USE, PLEASE INQUIRE THROUGH www.nossl.net
+
+
+
+########################################################################################
+*/
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 /*  AES implementation in PHP                                                                     */
 /*    (c) Chris Veness 2005-2011 www.movable-type.co.uk/scripts                                   */

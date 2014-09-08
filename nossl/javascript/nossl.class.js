@@ -1,6 +1,37 @@
+/*
+########################################################################################
+
+## NoSSL V1.1 - Encryption between browser and server
+
+########################################################################################
+
+## Copyright (C) 2013 - 2014 Smart In Media GmbH & Co. KG
+
+##
+
+## http://www.nossl.net
+
+##
+
+########################################################################################
+
+
+
+THIS PROGRAM IS LICENSED FOR PRIVATE USE UNDER THE GPL LICENSE
+
+
+
+FOR COMMERCIAL USE, PLEASE INQUIRE THROUGH www.nossl.net
+
+
+
+########################################################################################
+*/
+
+
 function NoSSL() //The ways-variable is the switch if NoSSL works 1way or 2ways (only from client to server or also from server to client)
 {
-    var debugging = true; //Switch to false to switch off console.logs
+    var debugging = false; //Switch to false to switch off console.logs
     var that = this; //This is so public functions can accessed from within private ones
     var timeouthandler; //The handler variable for settimeout for the remaining lease time
     
@@ -97,6 +128,10 @@ function NoSSL() //The ways-variable is the switch if NoSSL works 1way or 2ways 
                 return (scripts[i].src.replace("javascript/nossl_start.js", "") );//Will deliver e. g. http://www.example.com/cunity/nossl/ as the NoSSL path
                     
             }
+            else if (scripts[i].src.toLowerCase().indexOf("nossl_start.min.js")!==-1){//We found //..../nossl_start.js, now extract the path!
+                return (scripts[i].src.replace("javascript/nossl_start.min.js", "") );//Will deliver e. g. http://www.example.com/cunity/nossl/ as the NoSSL path
+
+            } 
             
         }
         return false;

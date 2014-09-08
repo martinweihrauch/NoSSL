@@ -1,5 +1,22 @@
 <?php
 
+$intro_license_string = "/*\n########################################################################################\n
+## NoSSL V1.2 - Encryption between browser and server\n
+########################################################################################\n
+## Copyright (C) 2013 - 2014 Smart In Media GmbH & Co. KG\n
+##\n
+## http://www.nossl.net\n
+##\n
+########################################################################################\n
+\n
+THIS PROGRAM IS LICENSED FOR PRIVATE USE UNDER THE GPL LICENSE\n
+\n
+FOR COMMERCIAL USE, PLEASE INQUIRE THROUGH www.nossl.net\n
+\n
+########################################################################################\n*/\n\n\n";
+
+
+
 $js =
 "json2.js
 storage-wojo.js
@@ -25,7 +42,7 @@ foreach ($js_array as $value){
     $complete_javascript .= file_get_contents('./nossl/javascript/'.$value)."\r\n\r\n";
     echo "<br />Included: ".$value;
 }
-file_put_contents('./packed_javascript.js', $complete_javascript);
+file_put_contents('./nossl/javascript/nossl_start.min.js', $intro_license_string.$complete_javascript);
 
 echo "<br /><br /><br />DONE!";
 

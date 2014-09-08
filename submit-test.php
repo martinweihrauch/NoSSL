@@ -117,7 +117,7 @@ if (isset($_REQUEST['password'])) {
 				<!-- <h2><small>Example by <a href="http://www.smartinmedia.com">Smart In Media</a></small></h2> -->
 	
           <div class="formdiv">
-			<form action="submit-test.php" class="testclass andanother" onsubmit="return CheckInput();" method="post">
+			<form action="<?php echo basename(__FILE__); ?>" class="testclass andanother" onsubmit="return CheckInput();" method="post">
 			      User name: <input type="text" name="username" /> <br />
 			      Password: <input type="password" name="password" /> <br />
 			      Your comment: <textarea name="textarea_field2">Ein Test</textarea><br />
@@ -130,7 +130,7 @@ if (isset($_REQUEST['password'])) {
          
          
          <div class="formdiv">   
-            <form action="submit-test.php" class="testclass andanother" onsubmit="return killSession();" method="post">
+            <form action="<?php echo basename(__FILE__); ?>" class="testclass andanother" onsubmit="return killSession();" method="post">
 			      Kill session
 			      <input type="hidden" name="KillSession"/>
 			     <input type="submit" name="test2" value="Kill session!"/>
